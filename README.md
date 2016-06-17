@@ -6,6 +6,7 @@
 1.导入头文件 #import "PZQActionSheet.h"
 
 2.如下
+
  PZQActionSheet *pzqActionSheet = [[PZQActionSheet alloc] initWithDelegate:self title:nil cancelButton:@"取消" otherTitle:title1,title2, title3, nil];
-    pzqActionSheet.LastButtonColor = [UIColor redColor];
-    [pzqActionSheet show];
+ pzqActionSheet.LastButtonColor = [UIColor redColor];
+ [pzqActionSheet show];
